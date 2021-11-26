@@ -60,8 +60,9 @@ https://www.youtube.com/watch?v=HIj8wU_rGIU
 <img width="728" alt="Screen Shot 2021-11-26 at 12 03 18 PM" src="https://user-images.githubusercontent.com/84158176/143613145-323afebf-bd50-499b-bd3c-11eab896a6a3.png">
 
 Youtube Video:
-https://www.youtube.com/watch?v=HIj8wU_rGIU
+https://www.youtube.com/watch?v=_lGSHaB90gw
 
 
-<img width="855" alt="Screen Shot 2021-11-26 at 12 08 18 PM" src="https://user-images.githubusercontent.com/84158176/143614200-6bb983ff-591a-4f30-b7eb-d5392a7e8d38.png">
+
+<img width="978" alt="Screen Shot 2021-11-26 at 12 07 44 PM" src="https://user-images.githubusercontent.com/84158176/143614546-c93f23df-b3a9-492b-b009-ab8269c4f5a8.png">
 
