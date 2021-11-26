@@ -1,5 +1,5 @@
 # Reddit-Howto-Bot
-This is a reddit bot that responds to a comment with a problem, with a video from youtube to solve that problem.
+This is a reddit bot that responds to a comment with a problem, with a video from Youtube to solve that problem.
 ### Setup
 ###### Reddit App:
 1. Create a [Reddit](https://www.reddit.com) account
