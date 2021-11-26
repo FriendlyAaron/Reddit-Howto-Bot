@@ -18,9 +18,10 @@ This is a reddit bot that responds to a problem in a comment and responds with a
 3. **client_id:** the outputted client id
 4. **client_secret:** the outputted secret
 
+
 ######  Installation
 1. Download the latest python version from: https://www.python.org/downloads/
-2. Download the RedditImageDownloader.py file
+2. Download the main.py file
 3. Use pip3 to install praw in the terminal:         
          
           pip3 install praw
@@ -29,11 +30,7 @@ This is a reddit bot that responds to a problem in a comment and responds with a
 
 ## Gallery:
 
+<img width="733" alt="Screen Shot 2021-11-26 at 12 19 14 AM" src="https://user-images.githubusercontent.com/84158176/143611406-3664c2de-ab3f-4d59-9689-1c0bb87bce48.png">
 
-<img width="631" alt="File" src="https://user-images.githubusercontent.com/84158176/134793653-8f6c5c7d-aaf9-45f4-84ea-843f5d549f92.png">
+<img width="734" alt="Screen Shot 2021-11-26 at 12 19 30 AM" src="https://user-images.githubusercontent.com/84158176/143611422-35155f7b-2d8c-4790-8258-8c8987babcb8.png">
 
-<img width="642" alt="Screen Shot 2021-09-26 at 12 43 19 AM" src="https://user-images.githubusercontent.com/84158176/134793966-1a486f51-21d6-45f7-b521-641d772871ba.png">
-
-What happens if no images are found.
-
-<img width="684" alt="Screen Shot 2021-09-26 at 12 46 58 AM" src="https://user-images.githubusercontent.com/84158176/134794032-109e1d4b-28e0-4e67-bde8-aad50ef26e42.png">
