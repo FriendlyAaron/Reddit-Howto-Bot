@@ -29,8 +29,3 @@ This is a reddit bot that responds to a problem in a comment and responds with a
 
 
 ## Gallery:
-
-<img width="733" alt="Screen Shot 2021-11-26 at 12 19 14 AM" src="https://user-images.githubusercontent.com/84158176/143611406-3664c2de-ab3f-4d59-9689-1c0bb87bce48.png">
-
-<img width="734" alt="Screen Shot 2021-11-26 at 12 19 30 AM" src="https://user-images.githubusercontent.com/84158176/143611422-35155f7b-2d8c-4790-8258-8c8987babcb8.png">
-
