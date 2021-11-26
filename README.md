@@ -34,7 +34,7 @@ This is a reddit bot that responds to a comment with a problem, with a video fro
 
 ### Comment #1
 
-<img width="718" alt="Screen Shot 2021-11-26 at 12 02 39 PM" src="https://user-images.githubusercontent.com/84158176/143613213-a0f88560-6ab3-458b-91f2-66c6ed45e284.png">
+<img width="718" alt="Screen Shot 2021-11-26 at 12 02 39 PM" src="https://user-images.githubusercontent.com/84158176/143615326-e1673bdf-eceb-4006-b388-5e16aba2407f.png">
 
 Youtube Video:
 https://www.youtube.com/watch?v=joBmbh0AGSQ
@@ -47,7 +47,8 @@ https://www.youtube.com/watch?v=joBmbh0AGSQ
 
 ### Comment #2
 
-<img width="736" alt="Screen Shot 2021-11-26 at 12 03 02 PM" src="https://user-images.githubusercontent.com/84158176/143613135-51e962f7-c100-45db-b3b5-2436c263228f.png">
+<img width="736" alt="Screen Shot 2021-11-26 at 12 03 02 PM" src="https://user-images.githubusercontent.com/84158176/143615460-4f117fec-eab2-45b6-b2a3-61406154ab2e.png">
+
 
 Youtube Video:
 https://www.youtube.com/watch?v=HIj8wU_rGIU
@@ -57,7 +58,8 @@ https://www.youtube.com/watch?v=HIj8wU_rGIU
 
 ### Comment #3
 
-<img width="728" alt="Screen Shot 2021-11-26 at 12 03 18 PM" src="https://user-images.githubusercontent.com/84158176/143613145-323afebf-bd50-499b-bd3c-11eab896a6a3.png">
+<img width="728" alt="Screen Shot 2021-11-26 at 12 03 18 PM" src="https://user-images.githubusercontent.com/84158176/143615541-885e633f-2ae9-46ac-aa01-6423cb519674.png">
+
 
 Youtube Video:
 https://www.youtube.com/watch?v=_lGSHaB90gw
