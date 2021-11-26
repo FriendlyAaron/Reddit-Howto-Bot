@@ -40,7 +40,8 @@ Youtube Video:
 https://www.youtube.com/watch?v=joBmbh0AGSQ
 
 
-<img width="868" alt="Screen Shot 2021-11-26 at 12 08 18 PM" src="https://user-images.githubusercontent.com/84158176/143614104-d60fdd05-008d-4706-9c98-603b702a6692.png">
+<img width="855" alt="Screen Shot 2021-11-26 at 12 08 18 PM" src="https://user-images.githubusercontent.com/84158176/143614394-0bff18c6-9f37-49a8-b0a9-8c6fae7063ad.png">
+
 
 
 
