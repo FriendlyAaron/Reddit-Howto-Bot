@@ -31,6 +31,7 @@ This is a reddit bot that responds to a reddit comment that has either "!how do 
 
 ## Gallery:
 
+Here are a few images of the Bot working.
 
 
 ### Comment #1
