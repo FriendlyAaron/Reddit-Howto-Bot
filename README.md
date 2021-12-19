@@ -26,6 +26,7 @@ This is a reddit bot that responds to a reddit comment that has either "!how do 
          
           pip3 install praw
 5. Run the py file
+6. Host the bot on any bot hosting platform to keep it online
 
 
 ## Gallery:
