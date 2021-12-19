@@ -25,8 +25,11 @@ This is a Reddit bot that responds to a Reddit comment that has either "!how do 
 3. Use pip3 to install praw in the terminal:         
          
           pip3 install praw
-5. Run the py file
-6. Host the bot on any bot hosting platform to keep it online
+5. Use pip3 to install youtube search library. 
+         
+          pip3 install youtube-search-python
+7. Run the py file
+8. Host the bot on any bot hosting platform to keep it online
 
 
 ## Gallery:
