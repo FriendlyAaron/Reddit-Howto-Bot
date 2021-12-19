@@ -1,5 +1,5 @@
 # Reddit-Howto-Bot
-This is a reddit bot that responds to a either "!how do i " or "!how to " comment, with a video from Youtube to solve that tell them how to do it. 
+This is a reddit bot that responds to a reddit comment that has either "!how do i " or "!how to " in its text. It responds with a video from Youtube that tells them how to do it. 
 ### Setup
 ###### Reddit App:
 1. Create a [Reddit](https://www.reddit.com) account
