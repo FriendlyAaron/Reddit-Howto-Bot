@@ -16,8 +16,9 @@ reddit = praw.Reddit(
 
 # Check if comment is valid and gets keywords
 def fetch_comment(comment):
-  if ("!how do i " in  comment.body.lower() or "!how to " in  comment.body.lower()):
+  if (("!how do i " in  comment.body.lower() or "!how to " in  comment.body.lower()) and len(comment.body) <= max_length):
     print (comment.body)
+    print (len(comment.body))
     keywords = comment.body.lower()
     start = keywords.index("!how") + 1
     try:
@@ -58,6 +59,7 @@ def reply(comment,video):
     
 
 subreddit = reddit.subreddit("all")
+max_length = 60;
 
 def post():
   for comment in subreddit.stream.comments(skip_existing=True):
