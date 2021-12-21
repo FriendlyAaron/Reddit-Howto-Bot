@@ -16,7 +16,7 @@ reddit = praw.Reddit(
 
 # Check if comment is valid and gets keywords
 def fetch_comment(comment):
-  if (("!how do i " in  comment.body.lower() or "!how to " in  comment.body.lower()) and len(comment.body) <= max_length):
+  if (("!how do i " in  comment.body.lower() or "!how to " in  comment.body.lower()) and len(comment.body) <= max_length and "!<" not in comment.body.lower() and ">!" not in comment.body.lower()):
     print (comment.body)
     print (len(comment.body))
     keywords = comment.body.lower()
