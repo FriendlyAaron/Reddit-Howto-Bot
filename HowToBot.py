@@ -20,12 +20,17 @@ def fetch_comment(comment):
     print (comment.body)
     print (len(comment.body))
     keywords = comment.body.lower()
+    print(keywords)
     start = keywords.index("!how") + 1
-    try:
-      end = keywords.index("?")
-      keywords = keywords[start:end]
-    except Exception as e:
-      keywords = keywords[start:]
+    if (keywords.startswith("!how do i ") or keywords.startswith("!how to ")):
+      try:
+        end = keywords.index("?")
+        keywords = keywords[start:end]
+      except Exception as e:
+        keywords = keywords[start:]
+    else:
+      print("Invalid Start")
+      post()
     print (keywords)
     video = fetch_video(keywords)
     reply(comment,video)
@@ -60,7 +65,6 @@ def reply(comment,video):
 
 subreddit = reddit.subreddit("all")
 max_length = 60;
-
 def post():
   for comment in subreddit.stream.comments(skip_existing=True):
     fetch_comment(comment) 
