@@ -55,7 +55,7 @@ def reply(comment,video):
 
 
 keep_alive()
-subreddit = reddit.subreddit("TestingFriendlyBot")
+subreddit = reddit.subreddit("all")
 max_length = 60;
 def post():
   for comment in subreddit.stream.comments(skip_existing=True):
