@@ -17,21 +17,16 @@ reddit = praw.Reddit(
 
 # Check if comment is valid and gets keywords
 def fetch_comment(comment):
-  if (("!how do i " in  comment.body.lower() or "!how to " in  comment.body.lower()) and len(comment.body) <= max_length and "!<" not in comment.body.lower() and ">!" not in comment.body.lower()):
-    print (comment.body)
-    print (len(comment.body))
-    keywords = comment.body.lower()
+  keywords = comment.body.lower()
+  if ((keywords.startswith("!how do i ") or keywords.startswith("!how to ")) and len(keywords) <= max_length and "!<" not in keywords and ">!" not in keywords):
+    print (len(keywords))
     print(keywords)
     start = keywords.index("!how") + 1
-    if (keywords.startswith("!how do i ") or keywords.startswith("!how to ")):
-      try:
-        end = keywords.index("?")
-        keywords = keywords[start:end]
-      except Exception as e:
-        keywords = keywords[start:]
-    else:
-      print("Invalid Start")
-      post()
+    try:
+      end = keywords.index("?")
+      keywords = keywords[start:end]
+    except:
+      keywords = keywords[start:]
     print (keywords)
     video = fetch_video(keywords)
     reply(comment,video)
@@ -51,7 +46,6 @@ def fetch_video(keywords):
 def reply(comment,video):
   comment.reply("Beep boop Im a bot and based on your comment, I see you might need some help. "+"I hope this Youtube video will help you. "+video+"\n\nCommands: !how do I, !how to")
   print ("Replied!")
-   
 
 
 keep_alive()
@@ -68,4 +62,3 @@ while True:
   except Exception as e:
     post()
     time.sleep(21600)
- 
