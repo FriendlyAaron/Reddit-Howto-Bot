@@ -20,16 +20,12 @@ This is a Reddit bot that responds to a Reddit comment that has either "!how do 
 
 
 ######  Installation
-1. Download the latest python version from: https://www.python.org/downloads/
-2. Download the main.py file
-3. Use pip3 to install praw in the terminal:         
-         
-          pip3 install praw
-5. Use pip3 to install youtube search library. 
-         
-          pip3 install youtube-search-python
-7. Run the py file
-8. Host the bot on any bot hosting platform to keep it online
+1. Create a [Replit](https://replit.com/) account
+2. Download the main.py & keep_alive files
+3. Go to my repls and create a new python repl
+4. Upload main.py & keep_alive files
+5. Config the main.py file
+6. Run the py file.
 
 
 ## Gallery:
@@ -39,7 +35,8 @@ Here are a few images of the Bot working.
 
 ### Comment #1
 
-<img width="718" alt="Screen Shot 2021-11-26 at 12 02 39 PM" src="https://user-images.githubusercontent.com/84158176/143615326-e1673bdf-eceb-4006-b388-5e16aba2407f.png">
+<img width="733" alt="img0" src="https://github.com/FriendlyAaron/Reddit-Howto-Bot/assets/84158176/ef86228d-4ed1-4666-b2fe-be6dd06bfcba">
+
 
 Youtube Video:
 https://www.youtube.com/watch?v=joBmbh0AGSQ
@@ -52,7 +49,8 @@ https://www.youtube.com/watch?v=joBmbh0AGSQ
 
 ### Comment #2
 
-<img width="736" alt="Screen Shot 2021-11-26 at 12 03 02 PM" src="https://user-images.githubusercontent.com/84158176/143615460-4f117fec-eab2-45b6-b2a3-61406154ab2e.png">
+<img width="729" alt="img1" src="https://github.com/FriendlyAaron/Reddit-Howto-Bot/assets/84158176/0607092a-1ebc-4931-b48d-6dd93dfe15fd">
+
 
 
 Youtube Video:
@@ -63,7 +61,8 @@ https://www.youtube.com/watch?v=HIj8wU_rGIU
 
 ### Comment #3
 
-<img width="728" alt="Screen Shot 2021-11-26 at 12 03 18 PM" src="https://user-images.githubusercontent.com/84158176/143615541-885e633f-2ae9-46ac-aa01-6423cb519674.png">
+<img width="732" alt="img2" src="https://github.com/FriendlyAaron/Reddit-Howto-Bot/assets/84158176/f3702045-05d9-43dc-9df4-55ccde89da47">
+
 
 
 Youtube Video:
