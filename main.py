@@ -3,6 +3,7 @@ import os
 import json
 from youtubesearchpython import *
 import time
+from keep_alive import keep_alive
 
 #Login 
 reddit = praw.Reddit(
@@ -48,22 +49,13 @@ def fetch_video(keywords):
 
 #Reply to comment
 def reply(comment,video):
-  rep=comment.reply("Beep boop Im a bot and based on your comment, I see you might need some help. "+"I hope this Youtube video will help you. "+video+" \n\nWas I able to help?| Downvote to remove comment| Commands: !how do I, !how to")
+  comment.reply("Beep boop Im a bot and based on your comment, I see you might need some help. "+"I hope this Youtube video will help you. "+video+"\n\nCommands: !how do I, !how to")
   print ("Replied!")
-  for i in range (8):
-    time.sleep(3600)
-    if rep.score < 0:
-      rep.delete()
-      print ("deleted")
-    else:
-      print ("Not deleted")
-  
+   
 
-  
-    
-    
 
-subreddit = reddit.subreddit("all")
+keep_alive()
+subreddit = reddit.subreddit("TestingFriendlyBot")
 max_length = 60;
 def post():
   for comment in subreddit.stream.comments(skip_existing=True):
@@ -72,6 +64,8 @@ def post():
 while True:
   try:
     post()
+    time.sleep(21600)
   except Exception as e:
     post()
+    time.sleep(21600)
  
